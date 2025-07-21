@@ -1,0 +1,42 @@
+/* Add these new styles to your existing CSS */
+
+.form-group select {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    background: white;
+    cursor: pointer;
+}
+
+.network-info {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.network-info p {
+    margin: 5px 0;
+}
+
+/* Network-specific color schemes */
+.network-ethereum {
+    background: linear-gradient(135deg, #627eea 0%, #6f7bb6 100%);
+}
+
+.network-polygon {
+    background: linear-gradient(135deg, #8247e5 0%, #a855f7 100%);
+}
+
+.network-base {
+    background: linear-gradient(135deg, #0052ff 0%, #4285f4 100%);
+}
+
+.network-sepolia {
+    background: linear-gradient(135deg, #f39c12 0%, #e67e22 100%);
+}
