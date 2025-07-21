@@ -26,26 +26,11 @@
                 placeholder="0x742d35Cc6634C0532925a3b8D7FE9c2Ca0e7B0E1"
             >
             <button onclick="checkBalance()">Check Balance</button>
-        </div>
-        
-        <div id="result" class="result hidden">
-            <h3>Balance Result:</h3>
-            <p id="balance-display"></p>
-            <p id="address-display"></p>
-        </div>
                 <div id="network-info" class="network-info">
             <p id="current-network">Current Network: <strong>Ethereum Mainnet</strong></p>
             <p id="network-currency">Native Currency: <strong>ETH</strong></p>
         </div>
-        
-        <div id="result" class="result hidden">
-            <h3>Balance Result:</h3>
-            <p id="balance-display"></p>
-            <p id="address-display"></p>
-            <p id="network-display"></p>
-        </div>
-
-        
+              
         <div id="loading" class="loading hidden">
             <p>🔄 Fetching balance...</p>
         </div>
@@ -53,8 +38,13 @@
         <div id="error" class="error hidden">
             <p id="error-message"></p>
         </div>
-    </div>
-    
+    </div> 
+        <div id="result" class="result hidden">
+            <h3>Your balance Result:</h3>
+            <p id="balance-display"></p>
+            <p id="address-display"></p>
+            <p id="network-display"></p>
+        </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/6.7.1/ethers.umd.min.js"></script>
     <script src="script.js"></script>
 </body>
